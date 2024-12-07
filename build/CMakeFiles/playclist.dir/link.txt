@@ -1,1 +1,0 @@
-/usr/bin/cc -Wl,--dependency-file=CMakeFiles/playclist.dir/link.d CMakeFiles/playclist.dir/main.c.o CMakeFiles/playclist.dir/src/song.c.o CMakeFiles/playclist.dir/src/ncutil.c.o CMakeFiles/playclist.dir/src/playlist.c.o CMakeFiles/playclist.dir/src/core.c.o -o playclist  -lcurses -lform

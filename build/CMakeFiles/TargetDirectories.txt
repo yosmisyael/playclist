@@ -1,3 +1,0 @@
-/home/yosev/Course/praktik-konsep-pemrograman/playclist/build/CMakeFiles/playclist.dir
-/home/yosev/Course/praktik-konsep-pemrograman/playclist/build/CMakeFiles/edit_cache.dir
-/home/yosev/Course/praktik-konsep-pemrograman/playclist/build/CMakeFiles/rebuild_cache.dir
