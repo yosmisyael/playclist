@@ -13,6 +13,10 @@ add_executable(playclist main.c
         include/ncutil.h
         src/song.c
         include/song.h
-        src/ncutil.c)
+        src/ncutil.c
+        include/playlist.h
+        src/playlist.c
+        include/core.h
+        src/core.c)
 
 target_link_libraries(playclist ${CURSES_LIBRARIES})

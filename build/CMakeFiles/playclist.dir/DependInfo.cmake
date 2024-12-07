@@ -9,7 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/yosev/Course/praktik-konsep-pemrograman/playclist/main.c" "CMakeFiles/playclist.dir/main.c.o" "gcc" "CMakeFiles/playclist.dir/main.c.o.d"
+  "/home/yosev/Course/praktik-konsep-pemrograman/playclist/src/core.c" "CMakeFiles/playclist.dir/src/core.c.o" "gcc" "CMakeFiles/playclist.dir/src/core.c.o.d"
   "/home/yosev/Course/praktik-konsep-pemrograman/playclist/src/ncutil.c" "CMakeFiles/playclist.dir/src/ncutil.c.o" "gcc" "CMakeFiles/playclist.dir/src/ncutil.c.o.d"
+  "/home/yosev/Course/praktik-konsep-pemrograman/playclist/src/playlist.c" "CMakeFiles/playclist.dir/src/playlist.c.o" "gcc" "CMakeFiles/playclist.dir/src/playlist.c.o.d"
   "/home/yosev/Course/praktik-konsep-pemrograman/playclist/src/song.c" "CMakeFiles/playclist.dir/src/song.c.o" "gcc" "CMakeFiles/playclist.dir/src/song.c.o.d"
   "" "playclist" "gcc" "CMakeFiles/playclist.dir/link.d"
   )

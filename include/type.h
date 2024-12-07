@@ -6,6 +6,31 @@
 #define TYPE_H
 #include <ncurses.h>
 
+#define KEY_DELETE  4
+#define KEY_EDIT    5
+#define KEY_SEARCH  6
+#define KEY_RETURN  10
+#define KEY_RENAME  18
+#define KEY_ESCAPE  27
+#define KEY_SPACE   32
+
+typedef enum {
+    STATE_MAIN_MENU,
+    STATE_SONG_MENU,
+    STATE_LIST_SONG,
+    STATE_SEARCH_SONG,
+    STATE_ADD_SONG,
+    STATE_DELETE_SONG,
+    STATE_PLAYLIST_MENU,
+    STATE_LIST_PLAYLIST,
+    STATE_GET_PLAYLIST,
+    STATE_CREATE_PLAYLIST,
+    STATE_RENAME_PLAYLIST,
+    STATE_EDIT_PLAYLIST,
+    STATE_DELETE_PLAYLIST,
+    STATE_EXIT
+} MenuState;
+
 typedef struct {
     int mnts;
     int secs;

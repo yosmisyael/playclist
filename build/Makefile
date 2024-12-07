@@ -153,6 +153,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/playclist.dir/build.make CMakeFiles/playclist.dir/main.c.s
 .PHONY : main.c.s
 
+src/core.o: src/core.c.o
+.PHONY : src/core.o
+
+# target to build an object file
+src/core.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playclist.dir/build.make CMakeFiles/playclist.dir/src/core.c.o
+.PHONY : src/core.c.o
+
+src/core.i: src/core.c.i
+.PHONY : src/core.i
+
+# target to preprocess a source file
+src/core.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playclist.dir/build.make CMakeFiles/playclist.dir/src/core.c.i
+.PHONY : src/core.c.i
+
+src/core.s: src/core.c.s
+.PHONY : src/core.s
+
+# target to generate assembly for a file
+src/core.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playclist.dir/build.make CMakeFiles/playclist.dir/src/core.c.s
+.PHONY : src/core.c.s
+
 src/ncutil.o: src/ncutil.c.o
 .PHONY : src/ncutil.o
 
@@ -176,6 +200,30 @@ src/ncutil.s: src/ncutil.c.s
 src/ncutil.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/playclist.dir/build.make CMakeFiles/playclist.dir/src/ncutil.c.s
 .PHONY : src/ncutil.c.s
+
+src/playlist.o: src/playlist.c.o
+.PHONY : src/playlist.o
+
+# target to build an object file
+src/playlist.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playclist.dir/build.make CMakeFiles/playclist.dir/src/playlist.c.o
+.PHONY : src/playlist.c.o
+
+src/playlist.i: src/playlist.c.i
+.PHONY : src/playlist.i
+
+# target to preprocess a source file
+src/playlist.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playclist.dir/build.make CMakeFiles/playclist.dir/src/playlist.c.i
+.PHONY : src/playlist.c.i
+
+src/playlist.s: src/playlist.c.s
+.PHONY : src/playlist.s
+
+# target to generate assembly for a file
+src/playlist.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/playclist.dir/build.make CMakeFiles/playclist.dir/src/playlist.c.s
+.PHONY : src/playlist.c.s
 
 src/song.o: src/song.c.o
 .PHONY : src/song.o
@@ -213,9 +261,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/core.o"
+	@echo "... src/core.i"
+	@echo "... src/core.s"
 	@echo "... src/ncutil.o"
 	@echo "... src/ncutil.i"
 	@echo "... src/ncutil.s"
+	@echo "... src/playlist.o"
+	@echo "... src/playlist.i"
+	@echo "... src/playlist.s"
 	@echo "... src/song.o"
 	@echo "... src/song.i"
 	@echo "... src/song.s"

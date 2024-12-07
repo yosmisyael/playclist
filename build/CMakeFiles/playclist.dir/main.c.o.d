@@ -36,7 +36,8 @@ CMakeFiles/playclist.dir/main.c.o: \
  /usr/include/bits/pthreadtypes-arch.h \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-float.h /usr/include/string.h \
- /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
- /usr/include/strings.h /usr/include/ctype.h \
- /home/yosev/Course/praktik-konsep-pemrograman/playclist/include/type.h
+ /usr/include/bits/stdlib-float.h \
+ /home/yosev/Course/praktik-konsep-pemrograman/playclist/include/ncutil.h \
+ /home/yosev/Course/praktik-konsep-pemrograman/playclist/include/type.h \
+ /home/yosev/Course/praktik-konsep-pemrograman/playclist/include/type.h \
+ /home/yosev/Course/praktik-konsep-pemrograman/playclist/include/core.h

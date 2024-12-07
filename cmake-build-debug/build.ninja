@@ -70,6 +70,20 @@ build CMakeFiles/playclist.dir/src/ncutil.c.o: C_COMPILER__playclist_unscanned_D
   OBJECT_DIR = CMakeFiles/playclist.dir
   OBJECT_FILE_DIR = CMakeFiles/playclist.dir/src
 
+build CMakeFiles/playclist.dir/src/playlist.c.o: C_COMPILER__playclist_unscanned_Debug /home/yosev/Course/praktik-konsep-pemrograman/playclist/src/playlist.c || cmake_object_order_depends_target_playclist
+  DEP_FILE = CMakeFiles/playclist.dir/src/playlist.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/yosev/Course/praktik-konsep-pemrograman/playclist/include
+  OBJECT_DIR = CMakeFiles/playclist.dir
+  OBJECT_FILE_DIR = CMakeFiles/playclist.dir/src
+
+build CMakeFiles/playclist.dir/src/core.c.o: C_COMPILER__playclist_unscanned_Debug /home/yosev/Course/praktik-konsep-pemrograman/playclist/src/core.c || cmake_object_order_depends_target_playclist
+  DEP_FILE = CMakeFiles/playclist.dir/src/core.c.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I/home/yosev/Course/praktik-konsep-pemrograman/playclist/include
+  OBJECT_DIR = CMakeFiles/playclist.dir
+  OBJECT_FILE_DIR = CMakeFiles/playclist.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target playclist
@@ -78,7 +92,7 @@ build CMakeFiles/playclist.dir/src/ncutil.c.o: C_COMPILER__playclist_unscanned_D
 #############################################
 # Link the executable playclist
 
-build playclist: C_EXECUTABLE_LINKER__playclist_Debug CMakeFiles/playclist.dir/main.c.o CMakeFiles/playclist.dir/src/song.c.o CMakeFiles/playclist.dir/src/ncutil.c.o | /usr/lib/libcurses.so /usr/lib/libform.so
+build playclist: C_EXECUTABLE_LINKER__playclist_Debug CMakeFiles/playclist.dir/main.c.o CMakeFiles/playclist.dir/src/song.c.o CMakeFiles/playclist.dir/src/ncutil.c.o CMakeFiles/playclist.dir/src/playlist.c.o CMakeFiles/playclist.dir/src/core.c.o | /usr/lib/libcurses.so /usr/lib/libform.so
   FLAGS = -g
   LINK_LIBRARIES = -lcurses  -lform
   OBJECT_DIR = CMakeFiles/playclist.dir
